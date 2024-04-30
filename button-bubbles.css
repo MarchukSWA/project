@@ -20,7 +20,7 @@ button {
     font-family: "Source Code Pro";
     font-weight: 900;
     text-transform: uppercase;
-    font-size: 30px;
+    font-size: 10px;
     color: var(--text-color);
     background-color: var(--btn-color);
     box-shadow: var(--shadow-color) 2px 2px 22px;
