@@ -22,6 +22,7 @@ $function = "";
             break;
         case "/":
             if ($second == 0):
+                // $result = $_GET['https://i.kym-cdn.com/photos/images/original/001/439/881/ed5.png'];
                 $result = "N/A";
             else:                
                 $result = $first / $second;
