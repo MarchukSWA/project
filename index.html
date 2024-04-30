@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <?php include 'calc.php';?>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="buttons.css">
+    <link rel="stylesheet" href="button-bubbles.css">
+    <link rel="stylesheet" href="bar.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="topnav">
+        <a class="active" href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="constacts.html">Contact</a>
+      </div>
+      <button class="button" onclick="toggleDarkMode()">Toggle Dark Mode</button>
+      <div class="content">
+        <h2>Content Goes Here</h2>
+        <p>This is a simple example of a top navigation bar.</p>
+      </div>
+    <form method="post" attribute="post" action="index.php">
+        <p>First Value:<br/>
+            <input type="text" id="first" name="first"></p>
+
+        <label for="function">Choose a function:</label>
+        <select name="function" id="function">
+            <option value="+">+</option>
+            <option value="-">-</option>
+            <option value="*">*</option>
+            <option value="/">/</option>
+        </select>
+        
+        <p>Second Value:<br/>
+            <input type="text" id="second" name="second"></p>
+        <button class="blob-btn" type="submit" name="answer" id="answer" value="answer">Calculate</button>
+    </form>
+
+    <p><?php echo $first. $function. $second. "=". $result; ?></p>
+
+</body>
+</html>
