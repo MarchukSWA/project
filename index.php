@@ -17,7 +17,7 @@
         <a href="about.html">About</a>
         <a href="constacts.html">Contact</a>
       </div>
-      <div><button class="button1" onclick="toggleDarkMode()">Toggle Dark Mode</button></div>
+      <div><button class="button" onclick="toggleDarkMode()">Toggle Dark Mode</button></div>
       
     <form method="post" attribute="post" action="calc.php">
         <p>First Value:<br/>
@@ -33,7 +33,7 @@
         
         <p>Second Value:<br/>
             <input type="text" id="second" name="second"></p>
-        <button type="submit" name="answer" id="answer" value="answer">Calculate</button>
+        <button class="blob-btn" type="submit" name="answer" id="answer" value="answer">Calculate</button>
     </form>
     
 
