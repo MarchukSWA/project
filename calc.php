@@ -2,14 +2,14 @@
 $result = "";
 $first = 0;
 $second = 0;
-$function = 0;
+$function = "";
     if (!empty($_POST['first'])):
         $first = $_POST['first'];
     endif;
     if(!empty($_POST['second'])):
         $second = $_POST['second'];
     endif;        
-    $function = $_POST['function'];
+    $function = $_POST["function"];
     switch($function):
         case "+":
             $result = $first + $second;
