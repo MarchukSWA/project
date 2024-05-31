@@ -25,6 +25,17 @@ $function = "+";
         case "/":
             if ($second == 0):
                 $result = "N/A";
+                echo'
+                <script>
+                    function DivideZero(){
+                        var DivideZeroVar = document.createElement("DivideZeroImage");
+                        DivideZeroVar.setAttribute("src", "https://i.kym-cdn.com/entries/icons/facebook/000/041/742/cover3.jpg")
+                        DivideZeroVar.setAttribute("alt", "BLEHCat");
+                        document.body.appendChild(DivideZeroVar);
+
+                    }
+                </script>';
+                    
             else:                
                 $result = $first / $second;
             endif;                

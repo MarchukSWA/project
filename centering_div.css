@@ -3,6 +3,19 @@
     max-width: fit-content;
     margin-left: auto;
     margin-right: auto;
-    border: 3px solid #73AD21;
+    border: 3px solid #333;
     padding: 10px;
+  }
+
+  body.dark-theme {
+    .center {
+      align-items: center;
+      max-width: fit-content;
+      margin-left: auto;
+      margin-right: auto;
+      border: 3px solid #fff;
+      padding: 10px;
+
+    }
+    
   }
