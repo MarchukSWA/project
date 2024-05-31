@@ -1,7 +1,8 @@
 .center {
-    position: absolute;
     align-items: center;
-    right: 50%;
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
     border: 3px solid #73AD21;
     padding: 10px;
   }
