@@ -8,6 +8,7 @@ li, a {
   text-decoration: none;
 }
 
+
 header {
   display: flex;
   justify-content: space-between;
@@ -30,6 +31,7 @@ header {
 
 .topnav a:hover {
   color: black;
+  font-weight: 1000;
 }
 
 body.dark-theme {
@@ -62,7 +64,8 @@ body.dark-theme {
   }
 
   .topnav a:hover {
-    color:#333;
+    color:white;
+    font-weight: 1000;
   }
 }
 

@@ -10,6 +10,7 @@
         <link rel="stylesheet" href="style.css">
         <link rel="stylesheet" href="centering_div.css">
         <script src="script.js"></script>
+        <script src="imageinput.js"></script>
     </head> 
     <body>
         <header>
@@ -20,6 +21,7 @@
                     <li> <a href="constacts.html">Contact</a><li>
                 </ul>
             </nav>
+            
             <div><button class="button" onclick="toggleDarkMode()">Toggle Dark Mode</button></div>
         </header>
         <div class="center"><form method="post" attribute="post" action="index.php">
@@ -39,6 +41,7 @@
             <button type="submit" name="answer" id="answer" value="answer">Calculate</button>
             
         </form>
+        
         
         <p><?php
         include 'calc.php';
