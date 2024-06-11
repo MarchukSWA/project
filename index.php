@@ -9,6 +9,7 @@
         <link rel="stylesheet" href="bar.css">
         <link rel="stylesheet" href="style.css">
         <link rel="stylesheet" href="centering_div.css">
+        <link rel="stylesheet" href="p1.css">
         <script src="script.js"></script>
         <script src="imageinput.js"></script>
     </head> 
@@ -28,26 +29,26 @@
             <p>First Value:<br/>
                 <input type="text" id="first" name="first"></p>
             
-            <label for="function">Choose a function:</label>
+                <label for="function">Choose a function:</label>
 
-            <select name="function" id="function">
-                <option value="+">+</option>
-                <option value="-">-</option>
-                <option value="*">*</option>
-                <option value="/">/</option>
-            </select>
-            <p>Second Value:<br/>
-                <input type="text" id="second" name="second"></p>
-            <button type="submit" name="answer" id="answer" value="answer">Calculate</button>
+                <select name="function" id="function" color="black">
+                    <option value="+">+</option>
+                    <option value="-">-</option>
+                    <option value="*">*</option>
+                    <option value="/">/</option>
+                </select>
+                <p>Second Value:<br/>
+                    <input type="text" id="second" name="second"></p>
+                <button type="submit" name="answer" id="answer" value="answer">Calculate</button>
             
-        </form>
+            </form>
         
         
-        <p><?php
-        include 'calc.php';
-        echo $first. $function. $second. "=". $result;
-        
-        ?></p>
+            <p1><br1><?php
+            include 'calc.php';
+            echo $first. $function. $second. "=". $result;
+            
+            ?></br1></p1>
         </div>
     </body>
 </html>
